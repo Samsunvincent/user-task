@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edituserdata</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="edituser()">
+    <div class="main-container">
+    <div class="form-container1">
+        <form onsubmit="updateuser(event)" method="PUT">
+            <div class="userformdiv editdiv"><span class="userform">EditData</span></div>
+            <div class="form-row"><input type="text" name="name" id="name" placeholder="Enter your name"> <span class="clienterr"
+                    id="name-err"></span></div>
+            <div class="form-row"><input type="email" name="email" id="email" placeholder="Enter your email"> <span class="clienterr"
+                    id="email-err"></span>
+            </div>
+            <div class="form-row"><input type="password" name="password" id="pass" placeholder="Enter your password"> <span
+                    class="clienterr" id="pass-err"></span>
+            </div>
+            <button class="submit button1" type="submit">submit</button></span>
+        </form>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

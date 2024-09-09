@@ -1,0 +1,20 @@
+.background{
+    background-color: black;
+
+}
+.table{
+    padding: 100px;
+
+}
+
+  /* Remove underlines from table header cells */
+
+tbody, td, tfoot, th, thead, tr {
+    border-color:none;
+    border-style:none;
+    border-width: 0;
+}
+
+  /* Remove underlines from table body cells */
+
+  
